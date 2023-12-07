@@ -1,0 +1,38 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="./css/style.css")
+        link(rel="stylesheet", href="./css/style_2.css")
+    body
+        include modules/SecondHeader
+        .wrapper
+            h1.section-name Новости и акции
+            .news-blocks
+                .news-block
+                    img(src="./img/bg_sales.png", alt="")
+                    .news-block-items
+                        p Скидки на квартиры с отделкой
+                        button Узнать подробнее
+                .news-block
+                    img(src="./img/bg_sales-2.png", alt="")
+                    .news-block-items
+                        p Скидки на квартиры с отделкой
+                        button Узнать подробнее
+                .news-block
+                    img(src="./img/bg_sales.png", alt="")
+                    .news-block-items
+                        p Скидки на квартиры с отделкой
+                        button Узнать подробнее
+            h1.section-name Партнеры
+            .partners-blocks
+                .partners-block
+                    img(src="./img/img_partner.png", alt="")
+                .partners-block
+                    img(src="./img/img_partner.png", alt="")
+                .partners-block
+                    img(src="./img/img_partner.png", alt="")
+
+        include modules/footer
