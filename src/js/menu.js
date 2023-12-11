@@ -8,17 +8,17 @@ function addMenuBurg(){
 
     let a = document.createElement('a');
     a.innerHTML = "Главная"
-    a.setAttribute("href", "#")
+    a.setAttribute("href", "./index.html")
     div.append(a)
 
     let a2 = document.createElement('a');
     a2.innerHTML = "Недвижимость"
-    a2.setAttribute("href", "#")
+    a2.setAttribute("href", "./realEstate.html")
     div.append(a2)
 
     let a3 = document.createElement('a');
     a3.innerHTML = "Новости"
-    a3.setAttribute("href", "#")
+    a3.setAttribute("href", "./news.html")
     div.append(a3)
 
     burgerMenu.append(div)

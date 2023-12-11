@@ -24,7 +24,7 @@
             }
             img.logo{
                 width: 335px;
-                height: 153px;
+                height: 153.1px;
                 position: absolute;
                 top: 59px;
                 left: 24px;
@@ -37,14 +37,17 @@
                 .header__banner-text{
                     position: absolute;
                     width: 1105px;
+                    height: 95%;
                     color: #FFF;
                     font-size: 32px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
-                    top: 38px;
+                    top: 0;
                     left: 48px;
-
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: space-between;
                         .logo-index{
                             width: 335px;
                             height: 153px;
@@ -52,7 +55,7 @@
                         }
 
                         p{
-                            margin-top: 248px;
+                            border-bottom: 4px solid #FFF;
                         } 
                 }
         }
@@ -215,7 +218,6 @@
 
 
 
-
 @media (max-width: 1024px){
     .header{
         width: 100%;
@@ -223,21 +225,10 @@
                     .header__banner-text{
                         width: 589.333px;
                         font-size: 18px;
-                        top: 20px;
                         left: 25px; 
-                            .logo{
+                            .logo-index{
                                 width: 169.2px;
                                 height: 81.6px;
-                            }
-                            p{
-                                margin-top: 132px;
-                            }
-                            .line{
-                                svg{
-                                    width: 578.134px;
-                                    height: 4px;
-                                }
-                                
                             }
                             
                     }
@@ -358,23 +349,11 @@
                     .header__banner-text{
                         width: 442px;
                         font-size: 14px;
-                        top: 15px;
                         left: 18px; 
-                            .logo{
+                            .logo-index{
                                 width: 126.9px;
                                 height: 61.2px;
                             }
-                            p{
-                                margin-top: 90px;
-                            }
-                            .line{
-                                svg{
-                                    width: 433.6px;
-                                    height: 4px;
-                                }
-                                
-                            }
-                            
                     }
             }
     
@@ -479,28 +458,17 @@
 
 
 @media (max-width: 480px){
-    .header{
+    .header,
+    .header-sec{
             .header__banner{
                     .header__banner-text{
                         width: 276px;
                         font-size: 9px;
-                        top: 10px;
                         left: 11px; 
-                            .logo{
+                            .logo-index{
                                 width: 83.75px;
                                 height: 38.25px;
-                            }
-                            p{
-                                margin-top: 58px;
-                            }
-                            .line{
-                                svg{
-                                    width: 271px;
-                                    height: 4px;
-                                }
-                                
-                            }
-                            
+                            }  
                     }
             }
     
@@ -618,11 +586,8 @@
     .header{
             .header__banner{
                     .header__banner-text{
-                        top: 9px;
                         left: 6px;
-                            p{
-                                margin-top: 20px;
-                            }
+                           
                     }
             }
 
